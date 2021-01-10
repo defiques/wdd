@@ -1,0 +1,273 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:after{
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+header{
+    background-color: #e9e9e9;
+    height: 670px;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.logo{
+    margin-top: 40px;
+    float: left;
+}
+
+nav{
+    float: right;
+    margin-top: 45px;
+}
+
+.menu{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.menu li{
+    float: left;
+    display: block;
+    margin-right: 50px;
+}
+
+.menu li:last-child{
+    margin-right: 0;
+}
+
+.menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.menu__home{
+    color: #5cb8b5;
+}
+
+.menu__nav{
+    color: #5e5e5e;
+}
+
+.titles{
+    margin-top: 185px;
+    width: 480px;
+    float: right;
+}
+
+.title__first{
+    color: #1d1d1d;
+    font-size: 38px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title__second{
+    color: #787878;
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 40px 0;
+}
+
+.button{
+    background: #10c9c3;
+    color: #effbfb;
+    display: inline-block;
+    padding: 23px 47px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.about{
+    background-color: #fff;
+    margin-bottom: 100px;
+}
+
+.titles__about{
+    width: 620px;
+    margin: 50px auto;
+}
+
+.title__about__first{
+    font-family: 'Montserrat', sans-serif;
+    color: #191919;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.title__about__second{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #8a8a8a;
+    font-size: 16px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.signature{
+    display: block;
+    margin: auto;
+}
+
+.skills{
+    background-color: #fff;
+    margin-bottom: 164px;
+}
+
+.titles__skills{
+    float: left;
+}
+
+.title__skills__first{
+    font-size: 30px;
+    color: #171717;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-top: 165px;
+}
+
+.title__skills__second{
+    font-size: 12px;
+    color: #171717;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.title__skills__second > div{
+    margin: 40px 0;
+}
+
+.rectangle__grey{
+    width: 500px;
+    height: 3px;
+    background: #d8d8d8;
+    margin-top: 20px;
+}
+
+.rectangle__blue__first{
+    width: 337px;
+    height: 3px;
+    background: #10c9c3;
+}
+
+.rectangle__blue__second{
+    width: 429px;
+    height: 3px;
+    background: #10c9c3;
+}
+
+.rectangle__blue__third{
+    width: 282px;
+    height: 3px;
+    background: #10c9c3;
+}
+
+.skills__img{
+    width: 680px;
+    height: 570px;
+    float: right;
+    position: absolute;
+    right: 0%;
+}
+
+.numbers{
+    background: #10c9c3;
+}
+
+.numbers .container{
+    display: flex;
+    justify-content: center;
+}
+
+.numbers__item{
+    margin: 100px auto;
+}
+
+.number{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.number__title{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.numbers__item img{
+    float: left;
+}
+
+.info{
+    float: right;
+    margin-left: 30px;
+}
+
+footer{
+    background-color: #141414;
+}
+
+footer .container{
+    display: flex;
+    justify-content: center;
+}
+
+footer .container > div{
+    margin: 100px auto;
+}
+
+.com__title{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.com__design{
+    color: #bcbcbc;
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+footer .container ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+footer .container ul a{
+    text-decoration: none;
+    color: #bcbcbc;
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
